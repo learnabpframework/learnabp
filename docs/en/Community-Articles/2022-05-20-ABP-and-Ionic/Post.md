@@ -28,4 +28,4 @@ npm -v
 
 Make sure you can open your command line and get a result for both of the commands. Your versions might be different at the time of installing it but that should be okif you are up to date!
 
-![Node Versions](images/screenshot-node-versions.png)
+![Node Versions](images/screen-shot-node-versions.png)
