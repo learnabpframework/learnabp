@@ -44,7 +44,7 @@ Run the folowing command to check the version of Yarn.
 
 ### ABP CLI
 
-you will also need to have the ABP CLI installed to create the startup template. ABP CLI is a command line insterface that is used to automate some common tasks for the ABP framework based solution.
+You will also need to have the ABP CLI installed to create the startup template. ABP CLI is a command line insterface that is used to automate some common tasks for the ABP framework based solution.
 
 In order to install the ABP CLI you will need an IDE such as [Visual Studio](https://visualstudio.microsoft.com/vs/) that uspports [.Net 6.0+](https://dotnet.microsoft.com/download/dotnet) installed
 
@@ -58,4 +58,4 @@ Once the ABP CLI is installed you can run the following command, at the time of 
 
 
 
-![ABP Version](..\images\screen-shot-abp-version.png)
+![ABP Version](../images/screen-shot-abp-version.png)
