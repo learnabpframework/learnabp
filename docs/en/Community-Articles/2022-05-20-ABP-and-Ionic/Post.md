@@ -218,7 +218,7 @@ ionic serve
 
 ![screenshot-ionic-browser](../images/screenshot-ionic-browser.png)
 
-We will not install the ABP Packages so we can take advantage of the power of ABP, run the following commands in the Terminal in the `ionic-app` folder
+We will now install the ABP Packages so we can take advantage of the power of ABP, run the following commands in the Terminal in the `ionic-app` folder
 
 ```bash
 npm install @abp/ng.core
@@ -315,7 +315,7 @@ abp generate-proxy -t ng -m identity -u https://localhost:44367
 
 ![GenerateProxy](../images/screen-shot-generate-proxy.png)
 
-> Note the port need to nbe the port 44367 on which your `Ionic.HttpApi.Host` is running on, running the `generate-proxy` command will create a proxy folder under the `src > app` called `proxy`.
+> Note the port need to nbe the port `44367` on which your `Ionic.HttpApi.Host`is running on, running the`generate-proxy`command will create a proxy folder under the`src > app`called`proxy`.
 
 ![ProxyFolder](../images/screen-shot-ionic-app-folder-structure-with-proxy-folder.png)
 
