@@ -10,6 +10,8 @@ Source Code of the completed application is avalibale on Github.
 
 Here, is a preview of the Ionic App
 
+![screen-shot-abp-ionic-preview](../images/screen-shot-abp-ionic-preview.png)
+
 ## Requirements
 
 If you haven't used ABP or Ionic Framework before you need to install and setup a few things. So lets get strated.
@@ -184,7 +186,7 @@ You should see the  below in your browsed
 
 ![ABP-Angular-UI](../images/screen-shot-angular-ui.png)
 
-Login using the default username `admin` and password `1q2w3E*` and navigate to `Administration > Identity Management > Users` and create some uses like below 
+Login using the default username `admin` and password `1q2w3E*` and navigate to `Administration > Identity Management > Users` and create some uses like below
 
 ![ABP-Users](../images/screen-shot-abp-users.png)
 
@@ -201,6 +203,7 @@ Navigate to the IonicApp folder and now run the following command, the `start` c
 ```bash
 ionic start ionic-app blank --type=angular --capacitor
 ```
+
 Using Visual Studio open the folder `Ionic-App` you should see the below
 
 ![screen-shot-ionic-folder-structure](../images/screen-shot-ionic-folder-structure.png)
@@ -225,8 +228,7 @@ npm install @abp/ng.core
 npm install @abp/ng.schematics --save-dev
 ```
 
-> The @abp/ng.schematics is added as a development dependency to the project so we can generate the static proxy to access the ABP API 
-
+> The @abp/ng.schematics is added as a development dependency to the project so we can generate the static proxy to access the ABP API
 
 ### environement.ts
 
@@ -291,7 +293,7 @@ import { environment } from 'src/environments/environment';
     CoreModule.forRoot({
       environment,
       registerLocaleFn: registerLocale(),
-      
+    
     })
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
@@ -300,7 +302,7 @@ import { environment } from 'src/environments/environment';
 export class AppModule {}
 ```
 
-> Note that we have are importing `registerLocale` and `CoreModule` from the @abp/ng.core package and we are have added the `CoreModule.forRoot()` which has the `environment` and `registerLocale` as parameters. 
+> Note that we have are importing `registerLocale` and `CoreModule` from the @abp/ng.core package and we are have added the `CoreModule.forRoot()` which has the `environment` and `registerLocale` as parameters.
 
 ### Generate Static Proxy
 
@@ -318,7 +320,7 @@ abp generate-proxy -t ng -m identity -u https://localhost:44367
 
 ### home.page.ts
 
-Navigate to `home.page.ts` under the `app > home` folder and change its code to the following 
+Navigate to `home.page.ts` under the `app > home` folder and change its code to the following
 
 ```typescript
 import { Component } from '@angular/core';
@@ -377,7 +379,7 @@ export class HomePage  {
 
 ### home.page.html
 
-Navigate to `home.page.html` under the `app > home` folder and change its code to the following 
+Navigate to `home.page.html` under the `app > home` folder and change its code to the following
 
 ```html
 <ion-header [translucent]="true">
@@ -400,7 +402,7 @@ Navigate to `home.page.html` under the `app > home` folder and change its code t
 </ion-content>
 ```
 
-### Finally you have got your self a Mobile App 
+### Finally you have got your self a Mobile App
 
 Run the Ionic Mobile App using the following command
 
