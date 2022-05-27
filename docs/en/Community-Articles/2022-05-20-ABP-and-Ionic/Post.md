@@ -4,7 +4,7 @@
 
 In this article, we will create an example application which will use the [ABP Framework](https://www.abp.io) as backend for a mobile application which can run on an iOS or Andriod mobile device using [Ionic Framework](https://ionicframework.com).
 
-Source Code of the completed application is avalibale on Github.
+Source Code of the completed application is avalibale on Github [https://github.com/learnabpframework/IonicApp](https://github.com/learnabpframework/IonicApp).
 
 ## Sreenshots
 
@@ -237,7 +237,7 @@ Open `environment.ts` under the `src > environments` folder and change it with t
 ```typescript
 import { Environment } from '@abp/ng.core';
 
-const baseUrl = 'http://localhost:4200';
+const baseUrl = 'http://localhost:8100';
 
 export const environment = {
   production: false,
@@ -292,8 +292,7 @@ import { environment } from 'src/environments/environment';
     AppRoutingModule,
     CoreModule.forRoot({
       environment,
-      registerLocaleFn: registerLocale(),
-    
+      registerLocaleFn: registerLocale()
     })
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
