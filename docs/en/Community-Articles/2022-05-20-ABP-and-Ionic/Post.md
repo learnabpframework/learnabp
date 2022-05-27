@@ -34,7 +34,7 @@ Make sure you can open your command line and get a result for both of the comman
 
 ### Yarn
 
-You will also need Yarn insalled for ABP Framework, you can install Yarn through the npm package manager which comes bundled with Node.js when you install it on your system. Ensure that it is Yarn v1.20+ not v2. ABP Framework doesn't support Yean v2
+You will also need Yarn insalled for ABP Framework, you can install Yarn through the npm package manager which comes bundled with Node.js when you install it on your system. Ensure that it is Yarn v1.20+ not v2. ABP Framework doesn't support Yarn v2
 
 ```bash
 npm install -g yarn
@@ -92,7 +92,7 @@ Now open the Ionic App Solution and navigate to the `IonicApp.Db Migrator Projec
 }
 ```
 
-We need to now setup the `IonicApp_MobileApp` client in our Identity Server, navigate to `IonicApp.Domain` project in the `IdentityServer` folder open `IdentityServerDataSeedContributor.cs` add the following code in the `createApiResouceAsync ` method. You will also need to turn off the `Enable Integrated Terminal` under Preferences > Other > Terminal
+We need to now setup the `IonicApp_MobileApp` client in our Identity Server, navigate to `IonicApp.Domain` project in the `IdentityServer` folder open `IdentityServerDataSeedContributor.cs` add the following code in the `CreateClientsAsync()` method. You will also need to turn off the `Enable Integrated Terminal` under Preferences > Other > Terminal
 
 ```csharp
     private async Task CreateClientsAsync()
