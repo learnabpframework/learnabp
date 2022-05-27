@@ -179,7 +179,7 @@ Yarn
 ```
 
 ```bash
-Yarn Sync
+Yarn Start
 ```
 
 You should see the  below in your browsed
