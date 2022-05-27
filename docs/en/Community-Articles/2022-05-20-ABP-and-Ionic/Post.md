@@ -186,7 +186,7 @@ You should see the  below in your browsed
 
 ![ABP-Angular-UI](../images/screen-shot-angular-ui.png)
 
-Login using the default username `admin` and password `1q2w3E*` and navigate to `Administration > Identity Management > Users` and create some uses like below
+Login using the default username `admin` and password `1q2w3E*` and navigate to `Administration > Identity Management > Users` and create some users like below
 
 ![ABP-Users](../images/screen-shot-abp-users.png)
 
@@ -198,11 +198,13 @@ Now for the fun part, in order to create a [Ionic](https://ionicframework.com) M
 npm install -g @ionic/cli
 ```
 
-Navigate to the IonicApp folder and now run the following command, the `start` creates a new Ionic Solution, the `type` of solution is Angular and `--capacitor` [Capacitor](https://capacitorjs.com) is a cross-platform native runtime that makes it easy to build modern web apps that run natively on IOS, Android, and the Web.
+Navigate to the IonicApp folder and now run the following command,
 
 ```bash
 ionic start ionic-app blank --type=angular --capacitor
 ```
+
+> The `start` argument creates a new Ionic Solution, the `type` of solution is Angular and `--capacitor` [Capacitor](https://capacitorjs.com) is a cross-platform native runtime that makes it easy to build modern web apps that run natively on IOS, Android, and the Web.
 
 Using Visual Studio open the folder `Ionic-App` you should see the below
 
