@@ -6,7 +6,7 @@ In this article, we will create an example application which will use the [ABP F
 
 Source Code of the completed application is avalibale on Github [https://github.com/learnabpframework/IonicApp](https://github.com/learnabpframework/IonicApp).
 
-## Sreenshots
+## Screenshots
 
 Here, is a preview of the Ionic App
 
